@@ -27,7 +27,7 @@ include::{testsviewsThymeleaf}/groovy/io/micronaut/docs/ViewsController.groovy[t
 
 In addition, you can return any POJO object and the properties of the POJO will be exposed to the view for rendering:
 
-[source,java]
+[source,groovy]
 .src/main/java/myapp/ViewsController.java
 ----
 include::{testsviewsThymeleaf}/groovy/io/micronaut/docs/ViewsController.groovy[tags=clazz]
@@ -43,7 +43,7 @@ Use the ann:core.annotation.Introspected[] annotation on your POJO object to avo
 
 You can also return a api:views.ModelAndView[] and skip specifying the api:views.View[] annotation.
 
-[source,java]
+[source,groovy]
 .src/main/java/myapp/ViewsController.java
 ----
 include::{testsviewsThymeleaf}/groovy/io/micronaut/docs/ViewsController.groovy[tags=clazz]
